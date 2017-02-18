@@ -3,6 +3,8 @@ $(document).ready(function() {
   var catIndex = 0;
 
   $('.summon-cats').on('click', function() {
+    $('.catbook').removeClass('hidden');
+
     $.ajax({
       url: 'http://bitkittens.herokuapp.com/cats.json',
       method: 'GET',
@@ -22,13 +24,12 @@ $(document).ready(function() {
         disableButton();
       };
     });
-
-
   });
 
   function disableButton() {
     $('.summon-cats').attr('disabled', 'disabled')
-                     .text("That's enough cats for today");
+                     .text("Okayyy, that's enough cats for today")
+                     .css('background-color', '#ccc');
   }
 
 });
