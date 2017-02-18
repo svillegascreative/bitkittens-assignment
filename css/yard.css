@@ -21,39 +21,39 @@ main {
   position: absolute;
 }
 
-#cat1 {
+#cat0 {
   top: 360px;
   left: 110px;
 }
-#cat2 {
+#cat1 {
   top: 240px;
   right: 150px;
 }
-#cat3 {
+#cat2 {
   top: 440px;
   right: 210px;
 }
-#cat4 {
+#cat3 {
   top: 515px;
   right: 39px;
 }
-#cat5 {
+#cat4 {
   top: 230px;
   right: 375px;
 }
-#cat6 {
+#cat5 {
   top: 535px;
   right: 445px;
 }
-#cat7 {
+#cat6 {
   top: 285px;
   left: 250px;
 }
-#cat8 {
+#cat7 {
   top: 45px;
   right: 145px;
 }
-#cat9 {
+#cat8 {
   top: 375px;
   left: 320px;
 }

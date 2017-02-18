@@ -10,12 +10,13 @@ $(document).ready(function() {
     }).done(function(catData) {
       var catList = catData.cats;
       var cat = catList[catIndex];
-      var catDivNumber = (catIndex + 1).toString();
 
       $('<img>').attr('src', cat.photo)
                 .attr('alt', 'Photo of ' + cat.name)
-                .appendTo('#cat' + catDivNumber );
+                .appendTo('#cat' + catIndex );
       catIndex++;
+
+
     });
   });
 
