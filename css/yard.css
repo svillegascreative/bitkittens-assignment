@@ -25,13 +25,35 @@ main {
   top: 360px;
   left: 110px;
 }
-
 #cat2 {
   top: 240px;
   right: 150px;
 }
-
 #cat3 {
   top: 440px;
   right: 210px;
+}
+#cat4 {
+  top: 515px;
+  right: 39px;
+}
+#cat5 {
+  top: 230px;
+  right: 375px;
+}
+#cat6 {
+  top: 535px;
+  right: 445px;
+}
+#cat7 {
+  top: 285px;
+  left: 250px;
+}
+#cat8 {
+  top: 45px;
+  right: 145px;
+}
+#cat9 {
+  top: 375px;
+  left: 320px;
 }
