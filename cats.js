@@ -17,7 +17,18 @@ $(document).ready(function() {
       catIndex++;
 
       $('<li>').text(cat.name).appendTo('.catbook');
+
+      if (catIndex === 8) {
+        disableButton();
+      };
     });
+
+
   });
+
+  function disableButton() {
+    $('.summon-cats').attr('disabled', 'disabled')
+                     .text("That's enough cats for today");
+  }
 
 });
