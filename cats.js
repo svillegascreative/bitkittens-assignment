@@ -16,7 +16,7 @@ $(document).ready(function() {
                 .appendTo('#cat' + catIndex );
       catIndex++;
 
-
+      $('<li>').text(cat.name).appendTo('.catbook');
     });
   });
 
