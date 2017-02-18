@@ -20,7 +20,7 @@ $(document).ready(function() {
 
       $('<li>').text(cat.name).appendTo('.catbook');
 
-      if (catIndex === 8) {
+      if (catIndex === 9) {
         disableButton();
       };
     });
